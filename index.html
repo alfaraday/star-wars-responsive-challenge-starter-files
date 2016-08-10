@@ -7,6 +7,8 @@
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <meta name="description" content="Star Wars characters digital trading cards">
+
   <!-- Normalize.css, a cross-browser reset file -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
 
@@ -14,9 +16,60 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
   <!-- Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/float-grid.css">
 
 </head>
 <body>
-
+	<header>
+		<h1>Star Wars Characters</h1>
+		<p>Incomplete list</p>
+	</header>
+	<div class="row top">
+		<div class="card rey">
+			<img src="images/rey_square.png">
+			<caption>
+				<h3 class="name">Rey</h3>
+				<p class="bio">Protagonist, from Jakku</p>
+			</caption>
+		</div>
+		<div class="card finn">
+			<img src="images/finn_square.png">
+			<caption>
+				<h3 class="name">Finn</h3>
+				<p class="bio">Storm Trooper, befriends Rey</p>
+			</caption>
+		</div>
+		<div class="card kylo">
+			<img src="images/kylo_square.png">
+			<caption>
+				<h3 class="name">Kylo</h3>
+				<p class="bio">Main villain, or is he?</p>
+			</caption>
+		</div>
+	</div>
+	<div class="row bottom">
+		<div class="card poe">
+			<img src="images/poe_square.png">
+			<caption>
+				<h3 class="name">Poe</h3>
+				<p class="bio">Neutral pilot</p>
+			</caption>
+		</div>
+		<div class="card chewbacca">
+			<img src="images/chewbacca_square.png">
+			<caption>
+				<h3 class="name">Chewbacca</h3>
+				<p class="bio">A great first mate</p>
+			</caption>
+		</div>
+		<div class="card yoda">
+			<img src="images/yoda_square.png">
+			<caption>
+				<h3 class="name">Yoda</h3>
+				<p class="bio">Wise old Jedi master is he</p>
+			</caption>
+		</div>
+	</div>
 </body>
 </html>
